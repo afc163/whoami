@@ -1,0 +1,32 @@
+{
+  "name": "whoami",
+  "version": "0.0.2",
+  "description": "Who am I?",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:afc163/fanyi.git"
+  },
+  "author": "afc163 <afc163@gmail.com>",
+  "license": "MIT",
+  "bin": {
+    "fanyi": "./bin/fanyi"
+  },
+  "keywords": [
+    "translate",
+    "iciba",
+    "youdao",
+    "translation",
+    "fanyi"
+  ],
+  "engines": {
+    "node": ">= 0.8.1"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "request": "^2.36.0",
+    "xml2json2": "~0.4.0",
+    "colorful": "~2.1.0",
+    "html-entities": "~1.0.10"
+  }
+}
