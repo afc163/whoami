@@ -1,6 +1,6 @@
 {
   "name": "whoami",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Who am I?",
   "main": "index.js",
   "repository": {
@@ -9,24 +9,17 @@
   },
   "author": "afc163 <afc163@gmail.com>",
   "license": "MIT",
-  "bin": {
-    "fanyi": "./bin/fanyi"
-  },
   "keywords": [
-    "translate",
-    "iciba",
-    "youdao",
-    "translation",
-    "fanyi"
+    "who",
+    "git",
+    "user",
+    "username"
   ],
   "engines": {
-    "node": ">= 0.8.1"
+    "node": ">= 0.10.0"
   },
   "readmeFilename": "README.md",
   "dependencies": {
-    "request": "^2.36.0",
-    "xml2json2": "~0.4.0",
-    "colorful": "~2.1.0",
-    "html-entities": "~1.0.10"
+    "shelljs": "^0.3.0"
   }
 }
