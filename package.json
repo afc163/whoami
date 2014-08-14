@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git@github.com:afc163/fanyi.git"
+    "url": "git@github.com:afc163/whoami.git"
   },
   "author": "afc163 <afc163@gmail.com>",
   "license": "MIT",
